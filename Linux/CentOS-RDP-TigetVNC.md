@@ -4,8 +4,7 @@
 yum install tigervnc-server
 
 #### Step2: Login to the user you want VNC program and configure the VNC password:
-su - your_user
-
+su - your_user<br\>
 vncpasswd
 
 #### Step3: Add the VNC conf file for the user. For my server I have the root privileges.
@@ -16,9 +15,9 @@ vi /etc/systemd/system/vncserver@\:1.service
 
 Add the following lines to the file vncserver@:1.service.
 
-[Unit]
-Description=Remote desktop service (VNC)
-After=syslog.target network.target
+[Unit]<br\>
+Description=Remote desktop service (VNC)<br\>
+After=syslog.target network.target<br\>
 
 [Service]
 Type=forking
