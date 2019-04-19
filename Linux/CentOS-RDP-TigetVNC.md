@@ -1,9 +1,9 @@
 ## TigerVNC configuration for CentOS7
 
-#### Step1: Install TigerVNC from your terminal.\
+#### Step1: Install TigerVNC from your terminal.<\br>
 yum install tigervnc-server
 
-#### Step2: Login to the user you want VNC program and configure the VNC password:\
+#### Step2: Login to the user you want VNC program and configure the VNC password:<br>
 su - your_user
 vncpasswd
 
